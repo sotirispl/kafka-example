@@ -1,6 +1,7 @@
 ## Setup
 
-Start kafka container at *localhost:9092* 
+Start kafka container at *localhost:9092*
+
 `docker-compose up -d kafka`
 
 If this address is already in use, edit the host and port into *docker-compose.yml* file. Also, edit consumer and producer vars for broker list.
